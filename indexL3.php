@@ -209,10 +209,6 @@
                         "scores" => ""));
 
         $table = [$player1, $player2, $player3, $player4];
-        
-        // $hand = ["cards" => [], 
-        //         "scores" => ""];
-        //array that becomes filled once cards are assigned to players
 
 
         // $game= ["location" => $table,
