@@ -7,183 +7,178 @@
     </head>
     <body>
         <?php
-        // player
-        // cards
-        // result
-        // random number of cards
-        // random cards
         
+        //individual cards
         $cardC1 = ["score" => 1, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "A"];
         $cardC2 = ["score" => 2, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "2"];
         $cardC3 = ["score" => 3, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "3"];
         $cardC4 = ["score" => 4, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "4"];
         $cardC5 = ["score" => 5, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "5"];
         $cardC6 = ["score" => 6, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "6"];
         $cardC7 = ["score" => 7, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "7"];
         $cardC8 = ["score" => 8, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "8"];
         $cardC9 = ["score" => 9, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "9"];
         $cardC10 = ["score" => 10, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "10"];
         $cardC11 = ["score" => 11, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "J"];
         $cardC12 = ["score" => 12, 
-                "suit" => $clubSuit,
+                "suit" => "Clubs",
                 "rank" => "Q"];
-        $cardC12 = ["score" => 13, 
-                "suit" => $clubSuit,
+        $cardC13 = ["score" => 13, 
+                "suit" => "Clubs",
                 "rank" => "K"];
                 
         $cardD1 = ["score" => 1, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "A"];
         $cardD2 = ["score" => 2, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "2"];
         $cardD3 = ["score" => 3, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "3"];
         $cardD4 = ["score" => 4, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "4"];
         $cardD5 = ["score" => 5, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "5"];
         $cardD6 = ["score" => 6, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "6"];
         $cardD7 = ["score" => 7, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "7"];
         $cardD8 = ["score" => 8, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "8"];
         $cardD9 = ["score" => 9, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "9"];
         $cardD10 = ["score" => 10, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "10"];
         $cardD11 = ["score" => 11, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "J"];
         $cardD12 = ["score" => 12, 
-                "suit" => $diamondsSuit,
+                "suit" => "Diamonds",
                 "rank" => "Q"];
-        $cardD12 = ["score" => 13, 
-                "suit" => $diamondsSuit,
+        $cardD13 = ["score" => 13, 
+                "suit" => "Diamonds",
                 "rank" => "K"];
                 
         $cardH1 = ["score" => 1, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "A"];
         $cardH2 = ["score" => 2, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "2"];
         $cardH3 = ["score" => 3, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "3"];
         $cardH4 = ["score" => 4, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "4"];
         $cardH5 = ["score" => 5, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "5"];
         $cardH6 = ["score" => 6, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "6"];
         $cardH7 = ["score" => 7, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "7"];
         $cardH8 = ["score" => 8, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "8"];
         $cardH9 = ["score" => 9, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "9"];
         $cardH10 = ["score" => 10, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "10"];
         $cardH11 = ["score" => 11, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "J"];
         $cardH12 = ["score" => 12, 
-                "suit" => $heartSuit,
+                "suit" => "Hearts",
                 "rank" => "Q"];
-        $cardH12 = ["score" => 13, 
-                "suit" => $heartSuit,
+        $cardH13 = ["score" => 13, 
+                "suit" => "Hearts",
                 "rank" => "K"];
                 
         $cardS1 = ["score" => 1, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "A"];
         $cardS2 = ["score" => 2, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "2"];
         $cardS3 = ["score" => 3, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "3"];
         $cardS4 = ["score" => 4, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "4"];
         $cardS5 = ["score" => 5, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "5"];
         $cardS6 = ["score" => 6, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "6"];
         $cardS7 = ["score" => 7, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "7"];
         $cardS8 = ["score" => 8, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "8"];
         $cardS9 = ["score" => 9, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "9"];
         $cardS10 = ["score" => 10, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "10"];
         $cardS11 = ["score" => 11, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "J"];
         $cardS12 = ["score" => 12, 
-                "suit" => $spadeSuit,
+                "suit" => "Spades",
                 "rank" => "Q"];
-        $cardS12 = ["score" => 13, 
-                "suit" => $spadeSuit,
+        $cardS13 = ["score" => 13, 
+                "suit" => "Spades",
                 "rank" => "K"];
         
                 
                 
-        
-        $clubSuit = ["directory" => "img/cards/Clubs",
-                    "name" => "Clubs"];
-        $diamondsSuit = ["directory" => "img/cards/Diamonds",
-                    "name" => "Diamonds"];
-        $heartsSuit = ["directory" => "img/cards/Hearts",
-                    "name" => "Hearts"];
-        $spadesSuit = ["directory" => "img/cards/Spades",
-                    "name" => "Spades"];
+        // $clubsSuit = ["directory" => "img/cards/Clubs",
+        //             "name" => "Clubs"];
+        // $diamondsSuit = ["directory" => "img/cards/Diamonds",
+        //             "name" => "Diamonds"];
+        // $heartsSuit = ["directory" => "img/cards/Hearts",
+        //             "name" => "Hearts"];
+        // $spadesSuit = ["directory" => "img/cards/Spades",
+        //             "name" => "Spades"];
                     
          
         //indexed array of the card objects      
@@ -192,42 +187,82 @@
                 $cardH1, $cardH2, $cardH3, $cardH4, $cardH5, $cardH6, $cardH7, $cardH8, $cardH9, $cardH10, $cardH11, $cardH12, $cardH13,
                 $cardS1, $cardS2, $cardS3, $cardS4, $cardS5, $cardS6, $cardS7, $cardS8, $cardS9, $cardS10, $cardS11, $cardS12, $cardS13];
 
-        $player1 = ["imageName" => "",
-                    "name" => $_POST["p1"]];
-        $player2 = ["imageName" => "",
-                    "name" => $_POST["p2"]];
-        $player3 = ["imageName" => "",
-                    "name" => $_POST["p3"]];
-        $player4 = ["imageName" => "",
-                    "name" => $_POST["p4"]];
+        $player1 = array("imageName" => "",
+                    "name" => $_REQUEST["p1"], 
+                        "hand" => array( 
+                        "cards" => [], 
+                        "scores" => ""));
+        $player2 = array("imageName" => "",
+                    "name" => $_REQUEST["p2"], 
+                        "hand" => array( 
+                        "cards" => [], 
+                        "scores" => ""));
+        $player3 = array("imageName" => "",
+                    "name" => $_REQUEST["p3"], 
+                        "hand" => array( 
+                        "cards" => [], 
+                        "scores" => ""));
+        $player4 = array("imageName" => "",
+                    "name" => $_REQUEST["p4"], 
+                        "hand" => array( 
+                        "cards" => [], 
+                        "scores" => ""));
 
         $table = [$player1, $player2, $player3, $player4];
         
-        $hand = ["player" => null,
-                "cards" => [], 
-                "scores" => ""];
+        // $hand = ["cards" => [], 
+        //         "scores" => ""];
+        //array that becomes filled once cards are assigned to players
 
-        $game= ["location" => $table,
-                "hands" => $hands, ]
+
+        // $game= ["location" => $table,
+        //         "hands" => $hands];
+        
+        $chosenCards = [""];
+        $chosenCardsIncrement = 0;
+        for ($j = 0; $j < count($table); $j++)
+        {
+                //cards for each players' hand
+                $playersHand = [""];
+                $num = rand(4,6);
+                for($i = 0; $i < $num; $i++)
+                {
+                        $cardInHand = $deck[array_rand($deck, 1)];
+                        while(in_array($cardInHand, $chosenCards) == true)
+                        {
+                                $cardInHand = $deck[array_rand($deck, 1)];
+                        }
+                        $chosenCards[$chosenCardsIncrement] = $cardInHand;
+                        $chosenCardsIncrement++;
+                        $playersHand[$i] = $cardInHand;
+                }
+                $table[$j]["hand"]["cards"] = $playersHand;
+                echo "<br/><br/>";
+                var_dump($table[$j]["name"]);
+                var_dump($table[$j]["hand"]["cards"]);
+                
+        }
+        
+        
+                
 
         ?>
-    </body>
+        
+   </body>
 </html>
 <html>
     <head>
         <title> </title>
     </head>
     <body>
-        <?php
-        var_dump($table)
-        ?>
         
         <form action="indexL3.php" method="POST">
-            <input type ="hidden" name="p1" value="<?: $_POST[\"p1\"] ?>"/>
-            <input type ="hidden" name="p2" value="<?: $_POST[\"p2\"] ?>"/>
-            <input type ="hidden" name="p3" value="<?: $_POST[\"p3\"] ?>"/>
-            <input type ="hidden" name="p4" value="<?: $_POST[\"p4\"] ?>"/>
+            <input type ="hidden" name="p1" value="<?php echo $_REQUEST['p1'] ?>"/>
+            <input type ="hidden" name="p2" value="<?php echo $_REQUEST['p2'] ?>"/>
+            <input type ="hidden" name="p3" value="<?php echo $_REQUEST['p3'] ?>"/>
+            <input type ="hidden" name="p4" value="<?php echo $_REQUEST['p4'] ?>"/>
             <input type ="submit" value="Play Again!"/>
         </form>
     </body>
+
 </html>

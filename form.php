@@ -3,7 +3,7 @@
         <title> </title>
     </head>
     <body>
-        <form action="indexL3.php" method="POST">
+        <form action="indexL3.php" method="GET">
             <div>
                 <label>Player 1:</label><input type="text" name = "p1" />
             </div>
