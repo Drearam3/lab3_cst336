@@ -7,14 +7,15 @@
     </head>
     <body>
         <?php
-        
+        $h=100;
+        $w=80;
         //individual cards
         $cardC1 = ["score" => 1, 
                 "suit" => "Clubs",
                 "rank" => "A"
-                ,"pic" => "<img src='img/cards/Clubs/1.png'>"];
+                ,"pic" => "<img src='img/cards/Clubs/1.png' height='$h' width='$w'>"];
                 
-        echo "cardC1[pic]";
+        echo $cardC1["pic"];
         $cardC2 = ["score" => 2, 
                 "suit" => "Clubs",
                 "rank" => "2"];
