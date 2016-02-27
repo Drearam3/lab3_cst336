@@ -11,10 +11,10 @@
         //individual cards
         $cardC1 = ["score" => 1, 
                 "suit" => "Clubs",
-                "rank" => "A",
-                "pic" => "<img src='img/cards/Clubs/1.png' border='0'>"];
+                "rank" => "A"
+                ,"pic" => "<img src='img/cards/Clubs/1.png'>"];
                 
-        var_dump($cardC1);
+        echo "cardC1[pic]";
         $cardC2 = ["score" => 2, 
                 "suit" => "Clubs",
                 "rank" => "2"];
