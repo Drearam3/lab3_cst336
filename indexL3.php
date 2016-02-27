@@ -11,7 +11,10 @@
         //individual cards
         $cardC1 = ["score" => 1, 
                 "suit" => "Clubs",
-                "rank" => "A"];
+                "rank" => "A",
+                "pic" => "<img src='img/cards/Clubs/1.png' border='0'>"];
+                
+        var_dump($cardC1);
         $cardC2 = ["score" => 2, 
                 "suit" => "Clubs",
                 "rank" => "2"];
@@ -216,6 +219,7 @@
         
         $chosenCards = [""];
         $chosenCardsIncrement = 0;
+        $score1=0;
         for ($j = 0; $j < count($table); $j++)
         {
                 //cards for each players' hand
@@ -231,14 +235,28 @@
                         $chosenCards[$chosenCardsIncrement] = $cardInHand;
                         $chosenCardsIncrement++;
                         $playersHand[$i] = $cardInHand;
+                        $sum+=$cardInHand["score"];
                 }
+                $sumArray[$j]=$sum;
+                $sum=0;
                 $table[$j]["hand"]["cards"] = $playersHand;
                 echo "<br/><br/>";
                 var_dump($table[$j]["name"]);
                 var_dump($table[$j]["hand"]["cards"]);
-                
         }
-        
+        var_dump($sumArray);
+        $winScore=0;
+        for($i = 0; $i < sizeof($sumArray); $i++){
+            if($sumArray[$i] <= 42 && $sumArray[$i] > $winScore){
+                $winScore = $sumArray[$i];
+                $winner=$i+1;
+            }
+            if($winner==-1){
+                echo "Everyone's scores are above 42, so noone win! ";
+            }
+        }
+        echo "The winner is player $winner, with the score of $winScore !";
+        echo "<br/><br/>";
         
                 
 
