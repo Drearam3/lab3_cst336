@@ -6,9 +6,16 @@ t1 {
   
 header {
   font-size: 150%;
-  /*background-color:#25587E;*/
   color:#ffffff;
   text-align:center;
   }
-  
+
+  .button{
+    height:35px;
+    width:200px;
+    background-color: #1F521F;
+    color: #FFFFFF;
+    text-transform:uppercase;
+}
+
       

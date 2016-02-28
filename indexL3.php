@@ -258,14 +258,12 @@
         "<img src='img/players/2.jpg' height='60' width='60'>",
         "<img src='img/players/3.jpg' height='60' width='60'>",
         "<img src='img/players/4.jpg' height='60' width='60'>");
-        // $game= ["location" => $table,
-        //         "hands" => $hands];
         
         $chosenCards = [""];
         $chosenCardsIncrement = 0;
         echo "<table align='center'>";
         echo "<tr>
-        <td colspan = 7 align='center'><h1>Silverjack!!!</h1></td></tr>";
+        <td colspan = 7 align='center'><font size=\"20\">Silverjack!!!</font></td></tr>";
         for ($j = 0; $j < count($table); $j++)
         {
                 //cards for each players' hand
@@ -329,14 +327,19 @@
         <title> </title>
     </head>
     <body>
-        
-        <form action="indexL3.php" method="POST">
-            <input type ="hidden" name="p1" value="<?php echo $_REQUEST['p1'] ?>"/>
-            <input type ="hidden" name="p2" value="<?php echo $_REQUEST['p2'] ?>"/>
-            <input type ="hidden" name="p3" value="<?php echo $_REQUEST['p3'] ?>"/>
-            <input type ="hidden" name="p4" value="<?php echo $_REQUEST['p4'] ?>"/>
-            <input type ="submit" value="Play Again!"/>
-        </form>
+        <div align = 'center'>
+                <form action="indexL3.php" method="POST">
+                    <input type ="hidden" name="p1" value="<?php echo $_REQUEST['p1'] ?>"/>
+                    <input type ="hidden" name="p2" value="<?php echo $_REQUEST['p2'] ?>"/>
+                    <input type ="hidden" name="p3" value="<?php echo $_REQUEST['p3'] ?>"/>
+                    <input type ="hidden" name="p4" value="<?php echo $_REQUEST['p4'] ?>"/>
+                    <input class='button' type ="submit" value="Play Again!"/>
+                </form>
+                
+                <form action="form.php">
+                    <input class='button' type="submit" value="Enter New Names">
+                </form>
+        </div>
     </body>
 
 </html>
