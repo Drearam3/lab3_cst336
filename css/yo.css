@@ -10,12 +10,22 @@ header {
   text-align:center;
   }
 
-  .button{
+.button{
     height:35px;
     width:200px;
     background-color: #1F521F;
     color: #FFFFFF;
     text-transform:uppercase;
 }
-
+.formButtons{
+    height:30px;
+    width:150px;
+}
+.back{
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
       
