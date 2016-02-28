@@ -18,7 +18,7 @@
             </div>
             
             <input type="submit" value="Submit"/>
-            <input type="clear" value="Reset"/>
+            <input type="reset" value="Reset"/>
             
         </form>
         <?php

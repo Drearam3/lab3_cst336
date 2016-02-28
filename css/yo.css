@@ -1,17 +1,14 @@
-<style>
-
-    t1 {
-      font-size: 200%;
-      text-align:center;
-      color:green;
-      padding:5px; 
-    }
-    header {
-    font-size: 150%;
-    background-color:#25587E;
-    color:#ffffff;
+t1 {
+    font-size: 200%;
     text-align:center;
-    padding:5px;
-    }
-    
-</stle>
+    color:green;
+  }
+  
+header {
+  font-size: 150%;
+  /*background-color:#25587E;*/
+  color:#ffffff;
+  text-align:center;
+  }
+  
+      
