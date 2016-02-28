@@ -7,6 +7,7 @@
     </head>
     <body>
         <?php
+        echo '<link rel="stylesheet" type="text/css" href="css/yo.css">';
         $h=100;
         $w=80;
         //individual cards
@@ -14,164 +15,213 @@
                 "suit" => "Clubs",
                 "rank" => "A"
                 ,"pic" => "<img src='img/cards/Clubs/1.png' height='$h' width='$w'>"];
-                
-        echo $cardC1["pic"];
         $cardC2 = ["score" => 2, 
                 "suit" => "Clubs",
-                "rank" => "2"];
+                "rank" => "2" 
+                ,"pic" => "<img src='img/cards/Clubs/2.png' height='$h' width='$w'>"];
         $cardC3 = ["score" => 3, 
                 "suit" => "Clubs",
-                "rank" => "3"];
+                "rank" => "3"
+                ,"pic" => "<img src='img/cards/Clubs/3.png' height='$h' width='$w'>"];
         $cardC4 = ["score" => 4, 
                 "suit" => "Clubs",
-                "rank" => "4"];
+                "rank" => "4"
+                ,"pic" => "<img src='img/cards/Clubs/4.png' height='$h' width='$w'>"];
         $cardC5 = ["score" => 5, 
                 "suit" => "Clubs",
-                "rank" => "5"];
+                "rank" => "5"
+                ,"pic" => "<img src='img/cards/Clubs/5.png' height='$h' width='$w'>"];
         $cardC6 = ["score" => 6, 
                 "suit" => "Clubs",
-                "rank" => "6"];
+                "rank" => "6"
+                ,"pic" => "<img src='img/cards/Clubs/6.png' height='$h' width='$w'>"];
         $cardC7 = ["score" => 7, 
                 "suit" => "Clubs",
-                "rank" => "7"];
+                "rank" => "7"
+                ,"pic" => "<img src='img/cards/Clubs/7.png' height='$h' width='$w'>"];
         $cardC8 = ["score" => 8, 
                 "suit" => "Clubs",
-                "rank" => "8"];
+                "rank" => "8"
+                ,"pic" => "<img src='img/cards/Clubs/8.png' height='$h' width='$w'>"];
         $cardC9 = ["score" => 9, 
                 "suit" => "Clubs",
-                "rank" => "9"];
+                "rank" => "9"
+                ,"pic" => "<img src='img/cards/Clubs/9.png' height='$h' width='$w'>"];
         $cardC10 = ["score" => 10, 
                 "suit" => "Clubs",
-                "rank" => "10"];
+                "rank" => "10"
+                ,"pic" => "<img src='img/cards/Clubs/10.png' height='$h' width='$w'>"];
         $cardC11 = ["score" => 11, 
                 "suit" => "Clubs",
-                "rank" => "J"];
+                "rank" => "J"
+                ,"pic" => "<img src='img/cards/Clubs/11.png' height='$h' width='$w'>"];
         $cardC12 = ["score" => 12, 
                 "suit" => "Clubs",
-                "rank" => "Q"];
+                "rank" => "Q"
+                ,"pic" => "<img src='img/cards/Clubs/12.png' height='$h' width='$w'>"];
         $cardC13 = ["score" => 13, 
                 "suit" => "Clubs",
-                "rank" => "K"];
+                "rank" => "K"
+                ,"pic" => "<img src='img/cards/Clubs/13.png' height='$h' width='$w'>"];
                 
         $cardD1 = ["score" => 1, 
                 "suit" => "Diamonds",
-                "rank" => "A"];
+                "rank" => "A"
+                ,"pic" => "<img src='img/cards/Diamonds/1.png' height='$h' width='$w'>"];
         $cardD2 = ["score" => 2, 
                 "suit" => "Diamonds",
-                "rank" => "2"];
+                "rank" => "2"
+                ,"pic" => "<img src='img/cards/Diamonds/2.png' height='$h' width='$w'>"];
         $cardD3 = ["score" => 3, 
                 "suit" => "Diamonds",
-                "rank" => "3"];
+                "rank" => "3"
+                ,"pic" => "<img src='img/cards/Diamonds/3.png' height='$h' width='$w'>"];
         $cardD4 = ["score" => 4, 
                 "suit" => "Diamonds",
-                "rank" => "4"];
+                "rank" => "4"
+                ,"pic" => "<img src='img/cards/Diamonds/4.png' height='$h' width='$w'>"];
         $cardD5 = ["score" => 5, 
                 "suit" => "Diamonds",
-                "rank" => "5"];
+                "rank" => "5"
+                ,"pic" => "<img src='img/cards/Diamonds/5.png' height='$h' width='$w'>"];
         $cardD6 = ["score" => 6, 
                 "suit" => "Diamonds",
-                "rank" => "6"];
+                "rank" => "6"
+                ,"pic" => "<img src='img/cards/Diamonds/6.png' height='$h' width='$w'>"];
         $cardD7 = ["score" => 7, 
                 "suit" => "Diamonds",
-                "rank" => "7"];
+                "rank" => "7"
+                ,"pic" => "<img src='img/cards/Diamonds/7.png' height='$h' width='$w'>"];
         $cardD8 = ["score" => 8, 
                 "suit" => "Diamonds",
-                "rank" => "8"];
+                "rank" => "8"
+                ,"pic" => "<img src='img/cards/Diamonds/8.png' height='$h' width='$w'>"];
         $cardD9 = ["score" => 9, 
                 "suit" => "Diamonds",
-                "rank" => "9"];
+                "rank" => "9"
+                ,"pic" => "<img src='img/cards/Diamonds/9.png' height='$h' width='$w'>"];
         $cardD10 = ["score" => 10, 
                 "suit" => "Diamonds",
-                "rank" => "10"];
+                "rank" => "10"
+                ,"pic" => "<img src='img/cards/Diamonds/10.png' height='$h' width='$w'>"];
         $cardD11 = ["score" => 11, 
                 "suit" => "Diamonds",
-                "rank" => "J"];
+                "rank" => "J"
+                ,"pic" => "<img src='img/cards/Diamonds/11.png' height='$h' width='$w'>"];
         $cardD12 = ["score" => 12, 
                 "suit" => "Diamonds",
-                "rank" => "Q"];
+                "rank" => "Q"
+                ,"pic" => "<img src='img/cards/Diamonds/12.png' height='$h' width='$w'>"];
         $cardD13 = ["score" => 13, 
                 "suit" => "Diamonds",
-                "rank" => "K"];
+                "rank" => "K"
+                ,"pic" => "<img src='img/cards/Diamonds/13.png' height='$h' width='$w'>"];
                 
         $cardH1 = ["score" => 1, 
                 "suit" => "Hearts",
-                "rank" => "A"];
+                "rank" => "A"
+                ,"pic" => "<img src='img/cards/Hearts/1.png' height='$h' width='$w'>"];
         $cardH2 = ["score" => 2, 
                 "suit" => "Hearts",
-                "rank" => "2"];
+                "rank" => "2"
+                ,"pic" => "<img src='img/cards/Hearts/2.png' height='$h' width='$w'>"];
         $cardH3 = ["score" => 3, 
                 "suit" => "Hearts",
-                "rank" => "3"];
+                "rank" => "3"
+                ,"pic" => "<img src='img/cards/Hearts/3.png' height='$h' width='$w'>"];
         $cardH4 = ["score" => 4, 
                 "suit" => "Hearts",
-                "rank" => "4"];
+                "rank" => "4"
+                ,"pic" => "<img src='img/cards/Hearts/4.png' height='$h' width='$w'>"];
         $cardH5 = ["score" => 5, 
                 "suit" => "Hearts",
-                "rank" => "5"];
+                "rank" => "5"
+                ,"pic" => "<img src='img/cards/Hearts/5.png' height='$h' width='$w'>"];
         $cardH6 = ["score" => 6, 
                 "suit" => "Hearts",
-                "rank" => "6"];
+                "rank" => "6"
+                ,"pic" => "<img src='img/cards/Hearts/6.png' height='$h' width='$w'>"];
         $cardH7 = ["score" => 7, 
                 "suit" => "Hearts",
-                "rank" => "7"];
+                "rank" => "7"
+                ,"pic" => "<img src='img/cards/Hearts/7.png' height='$h' width='$w'>"];
         $cardH8 = ["score" => 8, 
                 "suit" => "Hearts",
-                "rank" => "8"];
+                "rank" => "8"
+                ,"pic" => "<img src='img/cards/Hearts/8.png' height='$h' width='$w'>"];
         $cardH9 = ["score" => 9, 
                 "suit" => "Hearts",
-                "rank" => "9"];
+                "rank" => "9"
+                ,"pic" => "<img src='img/cards/Hearts/9.png' height='$h' width='$w'>"];
         $cardH10 = ["score" => 10, 
                 "suit" => "Hearts",
-                "rank" => "10"];
+                "rank" => "10"
+                ,"pic" => "<img src='img/cards/Hearts/10.png' height='$h' width='$w'>"];
         $cardH11 = ["score" => 11, 
                 "suit" => "Hearts",
-                "rank" => "J"];
+                "rank" => "J"
+                ,"pic" => "<img src='img/cards/Hearts/11.png' height='$h' width='$w'>"];
         $cardH12 = ["score" => 12, 
                 "suit" => "Hearts",
-                "rank" => "Q"];
+                "rank" => "Q"
+                ,"pic" => "<img src='img/cards/Hearts/12.png' height='$h' width='$w'>"];
         $cardH13 = ["score" => 13, 
                 "suit" => "Hearts",
-                "rank" => "K"];
+                "rank" => "K"
+                ,"pic" => "<img src='img/cards/Hearts/13.png' height='$h' width='$w'>"];
                 
         $cardS1 = ["score" => 1, 
                 "suit" => "Spades",
-                "rank" => "A"];
+                "rank" => "A"
+                ,"pic" => "<img src='img/cards/Spades/1.png' height='$h' width='$w'>"];
         $cardS2 = ["score" => 2, 
                 "suit" => "Spades",
-                "rank" => "2"];
+                "rank" => "2"
+                ,"pic" => "<img src='img/cards/Spades/2.png' height='$h' width='$w'>"];
         $cardS3 = ["score" => 3, 
                 "suit" => "Spades",
-                "rank" => "3"];
+                "rank" => "3"
+                ,"pic" => "<img src='img/cards/Spades/3.png' height='$h' width='$w'>"];
         $cardS4 = ["score" => 4, 
                 "suit" => "Spades",
-                "rank" => "4"];
+                "rank" => "4"
+                ,"pic" => "<img src='img/cards/Spades/4.png' height='$h' width='$w'>"];
         $cardS5 = ["score" => 5, 
                 "suit" => "Spades",
-                "rank" => "5"];
+                "rank" => "5"
+                ,"pic" => "<img src='img/cards/Spades/5.png' height='$h' width='$w'>"];
         $cardS6 = ["score" => 6, 
                 "suit" => "Spades",
-                "rank" => "6"];
+                "rank" => "6"
+                ,"pic" => "<img src='img/cards/Spades/6.png' height='$h' width='$w'>"];
         $cardS7 = ["score" => 7, 
                 "suit" => "Spades",
-                "rank" => "7"];
+                "rank" => "7"
+                ,"pic" => "<img src='img/cards/Spades/7.png' height='$h' width='$w'>"];
         $cardS8 = ["score" => 8, 
                 "suit" => "Spades",
-                "rank" => "8"];
+                "rank" => "8"
+                ,"pic" => "<img src='img/cards/Spades/8.png' height='$h' width='$w'>"];
         $cardS9 = ["score" => 9, 
                 "suit" => "Spades",
-                "rank" => "9"];
+                "rank" => "9"
+                ,"pic" => "<img src='img/cards/Spades/9.png' height='$h' width='$w'>"];
         $cardS10 = ["score" => 10, 
                 "suit" => "Spades",
-                "rank" => "10"];
+                "rank" => "10"
+                ,"pic" => "<img src='img/cards/Spades/10.png' height='$h' width='$w'>"];
         $cardS11 = ["score" => 11, 
                 "suit" => "Spades",
-                "rank" => "J"];
+                "rank" => "J"
+                ,"pic" => "<img src='img/cards/Spades/11.png' height='$h' width='$w'>"];
         $cardS12 = ["score" => 12, 
                 "suit" => "Spades",
-                "rank" => "Q"];
+                "rank" => "Q"
+                ,"pic" => "<img src='img/cards/Spades/12.png' height='$h' width='$w'>"];
         $cardS13 = ["score" => 13, 
                 "suit" => "Spades",
-                "rank" => "K"];
+                "rank" => "K"
+                ,"pic" => "<img src='img/cards/Spades/13.png' height='$h' width='$w'>"];
         
                 
                 
@@ -213,19 +263,30 @@
                         "scores" => ""));
 
         $table = [$player1, $player2, $player3, $player4];
-
-
+        $name = array("Angie", "Steven", "Jack", "Andy");
+        //image of payers
+        $pImg=array("<img src='img/players/1.jpg' height='60' width='60'>", 
+        "<img src='img/players/2.jpg' height='60' width='60'>",
+        "<img src='img/players/3.jpg' height='60' width='60'>",
+        "<img src='img/players/4.jpg' height='60' width='60'>");
         // $game= ["location" => $table,
         //         "hands" => $hands];
         
         $chosenCards = [""];
         $chosenCardsIncrement = 0;
-        $score1=0;
+        echo "<table align='center'>";
         for ($j = 0; $j < count($table); $j++)
         {
                 //cards for each players' hand
                 $playersHand = [""];
                 $num = rand(4,6);
+                echo "<tr>";
+                //print put player picture and name
+                echo "<td>";
+                        echo $pImg[$j];
+                        echo "<br>";
+                        echo $name[$j];
+                echo "</td>";
                 for($i = 0; $i < $num; $i++)
                 {
                         $cardInHand = $deck[array_rand($deck, 1)];
@@ -233,40 +294,50 @@
                         {
                                 $cardInHand = $deck[array_rand($deck, 1)];
                         }
+                        echo "<td>";
+                                echo $cardInHand["pic"];
+                        echo "</td>";
                         $chosenCards[$chosenCardsIncrement] = $cardInHand;
                         $chosenCardsIncrement++;
                         $playersHand[$i] = $cardInHand;
                         $sum+=$cardInHand["score"];
                 }
+                //print out score at the end of each row
+                echo "<br/><br/>";
+                echo "<td>";
+                        echo "<font size=\"20\"> $sum </font>";
+                echo "</td>";
+                echo "</tr>";
                 $sumArray[$j]=$sum;
                 $sum=0;
                 $table[$j]["hand"]["cards"] = $playersHand;
                 echo "<br/><br/>";
-                var_dump($table[$j]["name"]);
-                var_dump($table[$j]["hand"]["cards"]);
+                //var_dump($table[$j]["name"]);
+                //var_dump($table[$j]["hand"]["cards"]);
         }
-        var_dump($sumArray);
+        echo "</table>";
+        //var_dump($sumArray);
         $winScore=0;
         for($i = 0; $i < sizeof($sumArray); $i++){
             if($sumArray[$i] <= 42 && $sumArray[$i] > $winScore){
                 $winScore = $sumArray[$i];
-                $winner=$i+1;
+                $winner=$i;
             }
             if($winner==-1){
-                echo "Everyone's scores are above 42, so noone win! ";
+                echo "Everyone's scores are above 42, so no one win! ";
             }
         }
-        echo "The winner is player $winner, with the score of $winScore !";
+        echo "<div align='center'>";
+                echo "<font size=\"20\">$name[$winner] is winning, with the score of $winScore !</font>";
+        echo "</div>";
         echo "<br/><br/>";
-        
-                
-
         ?>
         
    </body>
 </html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="css/yo.css">
         <title> </title>
     </head>
     <body>
