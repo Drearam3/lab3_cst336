@@ -257,10 +257,17 @@
         $pImg=array("<img src='img/players/1.jpg' height='60' width='60'>", 
         "<img src='img/players/2.jpg' height='60' width='60'>",
         "<img src='img/players/3.jpg' height='60' width='60'>",
-        "<img src='img/players/4.jpg' height='60' width='60'>");
+        "<img src='img/players/4.jpg' height='60' width='60'>",
+        "<img src='img/players/5.jpg' height='60' width='60'>", 
+        "<img src='img/players/6.jpg' height='60' width='60'>",
+        "<img src='img/players/7.jpg' height='60' width='60'>",
+        "<img src='img/players/8.jpg' height='60' width='60'>",
+        "<img src='img/players/9.jpg' height='60' width='60'>",
+        "<img src='img/players/10.jpg' height='60' width='60'>");
         
         $chosenCards = [""];
         $chosenCardsIncrement = 0;
+        $chosenImgs =[""];
         echo "<table align='center'>";
         echo "<tr>
         <td colspan = 7 align='center'><font size=\"20\">Silverjack!!!</font></td></tr>";
@@ -272,7 +279,14 @@
                 echo "<tr>";
                 //print put player picture and name
                 echo "<td>";
-                        echo $pImg[$j];
+                        // echo $pImg[$j];
+                        $chosenImg = $pImg[array_rand($pImg, 1)];
+                        while(in_array($chosenImg, $chosenImgs) == true)
+                        {
+                            $chosenImg = $pImg[array_rand($pImg, 1)];    
+                        }
+                        echo $chosenImg;
+                        $chosenImgs[$j] = $chosenImg;
                         echo "&nbsp; &nbsp; <br>";
                         echo $name[$j];
                 echo "</td>";
